@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl text-dark-blue-primary;
+  }
+
+  h2 {
+    @apply text-2xl text-dark-blue-primary;
+  }
+
+  p {
+    @apply text-grayish-blue-neutral text-lg;
+  }
+
+  button {
+    @apply bg-gradient-to-r from-lime-green-primary to-bright-cyan-primary rounded-full text-white py-2 px-4;
+  }
+}
