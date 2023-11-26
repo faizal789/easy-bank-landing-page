@@ -16,7 +16,7 @@ export default {
         sans: ["Public Sans", "sans-serif"],
       },
       backgroundImage : {
-        'intro-desktop' : "url('images/bg-intro-desktop.svg')",
+        'intro-desktop' : "url('/images/bg-intro-desktop.svg')",
         'intro-mobile' : "url('images/bg-intro-mobile.svg')"
       }
     },

@@ -37,40 +37,40 @@ const Header = () => {
             className={`${
               menu
                 ? "absolute right-0 left-0 rounded-lg mx-auto top-28 bg-white h-[400px] w-10/12 z-50 flex flex-col gap-0 items-center justify-center"
-                : ""
-            } flex gap-7 h-full max-[900px]:${menu ? "flex" : "hidden"}`}
+                : "flex gap-7 h-full"
+            } max-[900px]:${menu ? "flex" : "hidden"}`}
           >
             <li
               className={`text-grayish-blue-neutral leading-[64px] ${
-                menu ? "leading-3 border-none" : ""
+                menu ? "border-none" : ""
               } hover:border-b-4 hover:border-lime-green-primary hover:text-dark-blue-primary cursor-pointer`}
             >
               <a href="/">Home</a>
             </li>
             <li
               className={`text-grayish-blue-neutral leading-[64px] ${
-                menu ? "leading-3 border-none" : ""
+                menu ? " border-none" : ""
               } hover:border-b-4 hover:border-lime-green-primary hover:text-dark-blue-primary cursor-pointer`}
             >
               About
             </li>
             <li
               className={`text-grayish-blue-neutral leading-[64px] ${
-                menu ? "leading-3 border-none" : ""
+                menu ? " border-none" : ""
               } hover:border-b-4 hover:border-lime-green-primary hover:text-dark-blue-primary cursor-pointer`}
             >
               Contact
             </li>
             <li
               className={`text-grayish-blue-neutral leading-[64px] ${
-                menu ? "leading-3 border-none" : ""
+                menu ? " border-none" : ""
               } hover:border-b-4 hover:border-lime-green-primary hover:text-dark-blue-primary cursor-pointer`}
             >
               Blog
             </li>
             <li
               className={`text-grayish-blue-neutral leading-[64px] ${
-                menu ? "leading-3 border-none" : ""
+                menu ? " border-none" : ""
               } hover:border-b-4 hover:border-lime-green-primary hover:text-dark-blue-primary cursor-pointer`}
             >
               Careers
